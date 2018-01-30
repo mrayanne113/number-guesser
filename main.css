@@ -1,0 +1,178 @@
+html {
+  font-size: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #404041;
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+  height: 116px;
+}
+
+.header-h1 {
+  color: #ED458B;
+  font-weight: 700;
+  margin: 0;
+}
+
+.header-h1-span {
+  color: #E6E7E8;
+  font-weight: 300;
+}
+
+.all-inside {
+  width: 629px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.main-content {
+  padding-top: 30px;
+}
+
+input {
+  width: 611px;
+  font-size: 3rem;
+  font-weight: 300;
+  padding-left: 10px;
+  color: #EB008B;
+  margin-top: 20px;
+}
+
+.guess-bttn, 
+.reset {
+  width: 300px;
+  height: 35px;
+  margin-top: 25px;
+  font-size: 2rem;
+  color: #FFFFFF;
+  background-color: #929497;
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+  border-radius: 16px;
+}
+
+.guess-bttn:disabled, 
+.reset:disabled, 
+.level-up-bttn:disabled, 
+.guess-level:disabled {
+  background-color: #D0D2D3;
+}
+
+.guess-bttn:hover, 
+.reset:hover, 
+.guess-level:hover {
+  background-color: #EB008B;
+}
+
+/*.level-up-clear:hover, */
+/*.guess-level:hover */
+#level-up-bttn:hover {
+  background-color: #5599CC;
+}
+
+/*.level-up-clear:disabled:hover, */
+/*.guess-level:disabled:hover */
+#level-up-bttn:disabled:hover {
+  background-color: #71A2B6;
+}
+
+.guess-number {
+  margin-right: 26px;
+}
+
+.last-guess, 
+.low-or-high {
+  margin-top: 20px;
+  font-size: 2.5rem;
+  color: #404041;
+}
+
+.user-guess-number {
+  color: #EB008B;
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-size: 7rem;
+}
+
+.low-or-high {
+  margin-top: 10px;
+}
+
+.reset, 
+.guess-level {
+  width: 629px;
+}
+
+.new-min {
+  margin-top: 20px;
+  color: #71A2B6;
+}
+
+.new-max {
+  margin-top: 15px;
+  margin-bottom: 17px;
+  color: #71A2B6;
+}
+
+.display-none {
+  display: none;
+}
+
+.new-max:disabled::placeholder,
+.new-min:disabled::placeholder {
+  color: #FFFFFF;
+}
+
+.new-max::placeholder,
+.new-min::placeholder {
+  color: #D0D2D3;
+}
+
+.level-up-clear {
+  margin-left: 25px;
+}
+
+h3 {
+  font-weight: 300;
+  font-size: 2rem;
+  margin-top: 20px;
+}
+
+.styling-p {
+  font-size: 2rem;
+}
+
+.high-score-placeholder, 
+.high-score,
+.guess-count-placeholder,
+.guess-count {
+  font-size: 2.5rem;
+  color: #404041;
+  font-weight: 300;
+  margin-left: 5px;
+}
+
+
+.top-bttn:hover {
+  background-color: #5599CC;
+}
+
+.reset-blue:hover {
+  background-color: #5599CC;
+}
+
+
+.blue-user::placeholder {
+  color: #5599CC;
+}*
