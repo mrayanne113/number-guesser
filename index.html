@@ -11,40 +11,22 @@
       <h1 class="header-h1">Number<span class="header-h1-span">Guesser</span></h1>
     </header>
     <section class="all-inside">
-     <!--  <section class="all-inside-top">
-        
-      <form class="main-content">
-         <input class="user-gues" type="number" placeholder="Enter your guess" name="number" min="1" max="100">
-         <button class="guess-number top-bttn guess-bttn">Guess</button>
-         <button class="clear-number top-bttn guess-bttn">Clear</button>
-       </form>
-       <p class="last-guess">Your last guess was</p>
-       <h2 class="user-guss-number">??</h2>
-       <p class="low-or-high">Pick a number, between 1 and 100</p>
-       <p class="guess-count-placeholder">Guesses:<span class="guess-count">0</span></p>
-       <button class="reset">Reset</button>
-      </section>
- -->
       <article class="levelup">
-        <!-- <h3>You can can set your own min and max after you win a round.</h3>
-        <p class="styling-p">Hit the level up button after you pick your new min and max</p>
-        <p class="styling-p">Upon a win, it will open up by 10</p> -->
         <form>
-          <input class="display-none new-min" type="number" name="levelup-min" placeholder="New min here">
-          <input class="display-none new-max" type="number" name="levelup-max" placeholder="New max here" min="0" max="100">
           <input class="user-guess" type="number" placeholder="Enter your Guess" name="number">
-          <button class="guess-bttn level-up-bttn" id="level-up-bttn" type="sumbit" >Level Up <p class="new-range"></p></button>
+          <button class="guess-bttn guess-number" type="submit">Guess<p class="new-range"></p></button>
           <button class="guess-bttn clear-number level-up-clear" type="sumbit">Clear</button>
-          <button class="guess-bttn guess-number guess-level" type="submit">Guess</button>
+          <input class="display-none new-min" type="number" name="levelup-min" placeholder="New min">
+          <input class="display-none new-max" type="number" name="levelup-max" placeholder="New max" min="0" max="100">
+          <button class="guess-bttn level-up-bttn display-none" id="level-up-bttn" type="sumbit">Go</button>
         </form>
-        <p class="last-guess">Your last guess was</p>
-      <h2 class="user-guess-number">??</h2>
-      <p class="low-or-high">Pick a number, between 1 and 100</p>
-      <p class="high-score-placeholder">High Score:<span class="high-score">0</span></p>
-      <p class="guess-count-placeholder">Guesses:<span class="guess-count">0</span></p>
-      <button class="reset">Reset</button>
+         <p class="last-guess">Your last guess was</p>
+         <h2 class="user-guess-number">??</h2>
+         <p class="low-or-high">Pick a number, between 1 and 100</p>
+         <p class="high-score-placeholder">High Score:<span class="high-score">0</span></p>
+         <p class="guess-count-placeholder">Guesses:<span class="guess-count">0</span></p>
+         <button class="reset">Reset</button>
       </article>
-    
     </section>
     <script type="text/javascript" src="script.js"></script>
   </body>

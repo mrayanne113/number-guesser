@@ -33,6 +33,8 @@ header {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  margin-top: 15px;
+  margin-bottom: 30px;
 }
 
 .main-content {
@@ -45,7 +47,6 @@ input {
   font-weight: 300;
   padding-left: 10px;
   color: #EB008B;
-  margin-top: 20px;
 }
 
 .guess-bttn, 
@@ -74,55 +75,71 @@ input {
   background-color: #EB008B;
 }
 
-/*.level-up-clear:hover, */
-/*.guess-level:hover */
+.guess-bttn:disabled:hover, 
+.reset:disabled:hover, 
+.guess-level:disabled:hover {
+  background-color: #D0D2D3;
+}
+
+
 #level-up-bttn:hover {
   background-color: #5599CC;
 }
 
-/*.level-up-clear:disabled:hover, */
-/*.guess-level:disabled:hover */
 #level-up-bttn:disabled:hover {
-  background-color: #71A2B6;
-}
-
-.guess-number {
-  margin-right: 26px;
+  background-color: #D0D2D3;
 }
 
 .last-guess, 
 .low-or-high {
-  margin-top: 20px;
   font-size: 2.5rem;
   color: #404041;
 }
 
+.last-guess {
+  display: inline-block;
+  margin-top: 30px;
+}
+
 .user-guess-number {
   color: #EB008B;
-  font-weight: 300;
   font-family: 'Open Sans', sans-serif;
-  text-align: center;
   font-size: 7rem;
+  font-weight: 300;
+  text-align: center;
 }
 
 .low-or-high {
   margin-top: 10px;
 }
 
-.reset, 
-.guess-level {
+.reset {
   width: 629px;
 }
 
 .new-min {
   margin-top: 20px;
-  color: #71A2B6;
 }
 
 .new-max {
   margin-top: 15px;
-  margin-bottom: 17px;
+  margin-bottom: 17px; 
+}
+
+.new-min,
+.new-max {
   color: #71A2B6;
+  width: 170px;
+  font-size: 2.5rem;
+}
+
+.level-up-bttn {
+  width: 234px;
+  margin-left: 20px;
+}
+
+.level-up-clear {
+  margin-left: 20px;
 }
 
 .display-none {
@@ -139,9 +156,6 @@ input {
   color: #D0D2D3;
 }
 
-.level-up-clear {
-  margin-left: 25px;
-}
 
 h3 {
   font-weight: 300;
@@ -172,7 +186,7 @@ h3 {
   background-color: #5599CC;
 }
 
-
 .blue-user::placeholder {
   color: #5599CC;
-}*
+}
+
