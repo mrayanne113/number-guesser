@@ -81,7 +81,6 @@ input {
   background-color: #D0D2D3;
 }
 
-
 #level-up-bttn:hover {
   background-color: #5599CC;
 }
@@ -109,6 +108,10 @@ input {
   text-align: center;
 }
 
+.new-range {
+  display: inline;
+}
+
 .low-or-high {
   margin-top: 10px;
 }
@@ -123,10 +126,10 @@ input {
 
 .new-max {
   margin-top: 15px;
-  margin-bottom: 17px; 
+  margin-bottom: 17px;
 }
 
-.new-min,
+.new-min, 
 .new-max {
   color: #71A2B6;
   width: 170px;
@@ -146,16 +149,15 @@ input {
   display: none;
 }
 
-.new-max:disabled::placeholder,
+.new-max:disabled::placeholder, 
 .new-min:disabled::placeholder {
   color: #FFFFFF;
 }
 
-.new-max::placeholder,
+.new-max::placeholder, 
 .new-min::placeholder {
   color: #D0D2D3;
 }
-
 
 h3 {
   font-weight: 300;
@@ -168,15 +170,14 @@ h3 {
 }
 
 .high-score-placeholder, 
-.high-score,
-.guess-count-placeholder,
+.high-score, 
+.guess-count-placeholder, 
 .guess-count {
   font-size: 2.5rem;
   color: #404041;
   font-weight: 300;
   margin-left: 5px;
 }
-
 
 .top-bttn:hover {
   background-color: #5599CC;
@@ -189,4 +190,3 @@ h3 {
 .blue-user::placeholder {
   color: #5599CC;
 }
-
