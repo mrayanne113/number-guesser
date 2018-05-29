@@ -25,3 +25,12 @@
 * Upon successful win, user’s range is updated:
   * Every time the user wins a round increase the maximum number by 10.
   * Every time the user wins a round decrease the minimum number by 10.
+
+### The Comp
+![the spec](images/number-guesser-spec.png)
+![the spec](images/Spec-details.png)
+
+
+### Mine 
+![mine](images/number-guesser.png)
+![mine win](images/number-guesser-win.png)
